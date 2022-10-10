@@ -10,6 +10,6 @@ To run the tests:
 - Press the play button at the feature level to run all the tests and examples in the feature.
 
 Pre-requistes:
-- Make sure you have the cucumber and gherkin plugins enabled in your IDE
+- Make sure you have the cucumber and gherkin plugins enabled in your IDE.
 - Check your Chrome version and install a chrome driver that corresponds to it. 
 - The chrome driver attached to this project is for Chrome version 106 and above. Your Chrome version can be found in the settings and About Chrome section.
