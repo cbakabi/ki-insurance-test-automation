@@ -20,10 +20,10 @@ Feature: Verify current class of business workflow works as expected
     And I verify that the class and premium is "<class and premium value>"
     And I leave the Ki Insurance Mock Platform page
     Examples:
-      | country                  | insured           | business | date | month | year | AUM value  | premium value | business name     | class and premium value             |
-      | Germany                  | Newco Ltd         | Cyber    | 06   | 10    | 2022 | 20000000   | 30000000      | Newco Ltd         | CLASS: Cyber // PREMIUM: $30M       |
-      | Spain                    | AAA Inc           | Energy   | 20   | 03    | 2021 | 39999999   | 1000000000    | AAA Inc           | CLASS: Energy // PREMIUM: $1B       |
-      | United States of America | Finance Group Ltd | Property | 04   | 07    | 1990 | 64590000   | 15720000      | Finance Group Ltd | CLASS: Property // PREMIUM: $15.72M |
+      | country                  | insured           | business | date | month | year | AUM value | premium value | business name     | class and premium value             |
+      | Germany                  | Newco Ltd         | Cyber    | 06   | 10    | 2022 | 20000000  | 30000000      | Newco Ltd         | CLASS: Cyber // PREMIUM: $30M       |
+      | Spain                    | AAA Inc           | Energy   | 20   | 03    | 2021 | 39999999  | 1000000000    | AAA Inc           | CLASS: Energy // PREMIUM: $1B       |
+      | United States of America | Finance Group Ltd | Property | 04   | 07    | 1990 | 64590000  | 15720000      | Finance Group Ltd | CLASS: Property // PREMIUM: $15.72M |
 
 
   Scenario Outline: Verify quotes in the pending quotes

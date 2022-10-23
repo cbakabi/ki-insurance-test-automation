@@ -1,74 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <artifactId>ki-insurance-test-automation</artifactId>
     <groupId>ki-insurance-test-automation</groupId>
-    <artifactId>ki-insurance-test-automation</artifactId>
-    <version>1.0-0</version>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>17</source>
-                    <target>17</target>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
+    <modelVersion>4.0.0</modelVersion>
 
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
-    <dependencies>
-        <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
-        <dependency>
-            <groupId>io.cucumber</groupId>
-            <artifactId>cucumber-java</artifactId>
-            <version>7.4.1</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
-        <dependency>
-            <groupId>io.cucumber</groupId>
-            <artifactId>cucumber-testng</artifactId>
-            <version>7.4.1</version>
-            <scope>test</scope>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
-        <dependency>
-            <groupId>io.rest-assured</groupId>
-            <artifactId>rest-assured</artifactId>
-            <version>5.2.0</version>
-            <scope>test</scope>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-test -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <version>2.7.4</version>
-            <scope>test</scope>
-        </dependency>
+    <version>1.0-0</version>
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>17</source>
+          <target>17</target>
+        </configuration>
+        <groupId>org.apache.maven.plugins</groupId>
+      </plugin>
+    </plugins>
+  </build>
+  <dependencies>
+    <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+    <dependency>
+      <artifactId>cucumber-java</artifactId>
+      <groupId>io.cucumber</groupId>
+      <version>7.4.1</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
+    <dependency>
+      <artifactId>cucumber-testng</artifactId>
+      <groupId>io.cucumber</groupId>
+      <scope>test</scope>
+      <version>7.4.1</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+    <dependency>
+      <artifactId>rest-assured</artifactId>
+      <groupId>io.rest-assured</groupId>
+      <scope>test</scope>
+      <version>5.2.0</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-test -->
+    <dependency>
+      <artifactId>spring-boot-starter-test</artifactId>
+      <groupId>org.springframework.boot</groupId>
+      <scope>test</scope>
+      <version>2.7.4</version>
+    </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-java</artifactId>
-            <version>4.3.0</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/org.assertj/assertj-core -->
-        <dependency>
-            <groupId>org.assertj</groupId>
-            <artifactId>assertj-core</artifactId>
-            <version>3.23.1</version>
-            <scope>test</scope>
-        </dependency>
+    <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+    <dependency>
+      <artifactId>selenium-java</artifactId>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <version>4.3.0</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.assertj/assertj-core -->
+    <dependency>
+      <artifactId>assertj-core</artifactId>
+      <groupId>org.assertj</groupId>
+      <scope>test</scope>
+      <version>3.23.1</version>
+    </dependency>
 
-    </dependencies>
-    
+  </dependencies>
+
+
 </project>
